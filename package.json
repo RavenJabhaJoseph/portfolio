@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavenJabhaJoseph/portfolio.git"
+  },
+  "keywords": [
+    "personal",
+    "portfolio",
+    "website"
+  ],
+  "author": "Raven Jabha Joseph R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RavenJabhaJoseph/portfolio/issues"
+  },
+  "homepage": "https://github.com/RavenJabhaJoseph/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

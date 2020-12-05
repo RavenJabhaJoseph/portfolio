@@ -1,0 +1,83 @@
+/* import font libraries*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans+Narrow:wght@700&family=Questrial&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+/*navigation styling*/
+.top-nav {
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 25px 25px;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+}
+
+.right-nav {
+    float: right;
+    margin-right: 5%;
+}
+
+.left-nav {
+    margin-left: 5%;
+}
+
+/*section container*/
+#Home, #About, #Contact {
+    height: 100vh;
+    width: 100%;
+}
+
+#Home {
+    background-color: indianred;
+    overflow: hidden;
+}
+#About {
+    background-color: cyan;
+}
+#Contact {
+    background-color: indigo;
+}
+
+.content, .contact-content {
+    position: relative;
+    top: 45vh;
+    left: 25vh
+}
+
+.about-content {
+    position: relative;
+    top: 30vh;
+    left: 25vh;
+}
+ .headline {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 900;
+    font-size: 80px; 
+}
+.subline-1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+
+}
+.subline-2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1vh;
+}
+
